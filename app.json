@@ -27,6 +27,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "The ally(friend) app is an all-around solution for mental health issues and psychological wellbeing."
   }
 }
