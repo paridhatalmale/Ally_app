@@ -18,12 +18,21 @@ const App = () => {
       >
         <Text style={{fontWeight: "bold"}} >REGISTER</Text>
       </TouchableOpacity>
+
       <TouchableOpacity
         style={styles.button2}
         onPress={onPress}
       >
         <Text style={{fontWeight: "bold"}} >REGISTER AS COUNSELLOR</Text>
       </TouchableOpacity>
+
+      <TouchableOpacity
+        style={styles.button3}
+        onPress={onPress}
+      >
+        <Text style={{fontWeight: "bold"}} >LOGIN to your Account</Text>
+      </TouchableOpacity>
+
     </View>
   );
 };
@@ -48,10 +57,12 @@ const styles = StyleSheet.create({
     backgroundColor: "#3498DB",
     padding:20
   },
-  countContainer: {
+  button3: {
     alignItems: "center",
-    padding: 10
-  }
+    backgroundColor: "#3498DB",
+    padding:20
+  },
+  
   
 });
 

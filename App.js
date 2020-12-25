@@ -1,11 +1,13 @@
 import React from 'react';
 import Inputs from './inputs.js'
-import Intake from './component/index.js'
+import Intake from './component/Login.js'
+import Input from './component/index.js'
 
 const App = () => {
    return (
       <Inputs />,
-      <Intake />
+      <Intake />,
+      <Input />
    )
 }
 export default App
